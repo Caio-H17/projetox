@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Questão 01 - Caio Henrique</title>
+  <title>Questão 04 - Caio Henrique</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -46,12 +46,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Questão 01</h1>
+            <h1 class="m-0 text-dark">Questão 04</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-              <li class="breadcrumb-item active">Questão 01</li>
+              <li class="breadcrumb-item active">Questão 04</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -62,37 +62,35 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-            <h1>1. Escreva um algoritmo para somar dois números e multiplicar o resultado pelo primeiro número.</h1>
+            <h1>4. Escreva um algoritmo que leia a velocidade de um objeto em m/s (metros por segundo), calcule e
+exiba para o usuário a velocidade em km/h.</h1>
           <!-- Small boxes (Stat box) -->
           <form name="calcular" method="POST" action="" >
             <div class="row">
               <div class="col-3">
-                <input type="number" value="1" id="um" name="um" class="form-control" placeholder="1° Número">
+                <label for="um">Informe a sua velocidade em m/s</label>
+                <input type="number" value="1" id="vel" name="vel" class="form-control" placeholder="m/s">
               </div>
-              <div class="col-3">
-                <input type="number" value="1" id="dois" name="dois" class="form-control" placeholder="2° Número">
-              </div>
-            </div><br>
-            <div class="row">
-              <div class="col-3">
-                <button type="submit" class="btn btn-primary">Calculo</button>
+            <div class="row"><br>
+              <div class="col-3"><br>
+                <button type="submit" class="btn btn-primary" style="text-align:left;">Entrar</button>
               </div>
             </div>
           </form>
-
+          <br><br>
           <?php
 
-            $num1 = $_POST['um'];
-            $num2 = $_POST['dois'];
+            $Vel = $_POST['vel'];
 
-              function calculo($num1=0, $num2=0){
-                return ($num1 + $num2) * $num1;
+              function calculo($Vel=0){
+                return ($Vel*3.6);
               }
 
-              echo "<br>Resultado=<hr>".calculo($num1, $num2);
+              echo "<br>Velocidade em km/h: ".calculo($Vel);
 ?>
 
-          </div><!-- /.container-fluid -->
+
+  </div><!-- /.container-fluid -->
       </section>
       <!-- /.content -->
   </div>
@@ -140,16 +138,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
