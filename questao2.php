@@ -65,8 +65,6 @@
             <h1>2. Escreva um algoritmo que leia três números nas variáveis Val1, Val2 e Val3, calcule sua média na
 variável média e exiba para o usuário o resultado.</h1>
           <!-- Small boxes (Stat box) -->
-          <div class="row">
-
           <form name="calcular" method="POST" action="" >
             <div class="row">
               <div class="col-3">
@@ -81,7 +79,7 @@ variável média e exiba para o usuário o resultado.</h1>
             </div><br>
             <div class="row">
               <div class="col-3">
-                <button type="submit" class="btn btn-primary">OK</button>
+                <button type="submit" class="btn btn-primary">Calculo</button>
               </div>
             </div>
           </form>
@@ -95,8 +93,7 @@ variável média e exiba para o usuário o resultado.</h1>
             $media = ($val1+$val2+$val3)/3;
             return $media;
             }
-            echo "<br><br><br>Média:".number_format(media($val1, $val2, $val3),2);
-
+            echo "<br>Média:<hr>".number_format(media($val1, $val2, $val3),2);
           ?>
 
           </div><!-- /.container-fluid -->

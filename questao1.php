@@ -64,7 +64,6 @@
         <div class="container-fluid">
             <h1>1. Escreva um algoritmo para somar dois números e multiplicar o resultado pelo primeiro número.</h1>
           <!-- Small boxes (Stat box) -->
-          <div class="row">
           <form name="calcular" method="POST" action="" >
             <div class="row">
               <div class="col-3">
@@ -90,7 +89,7 @@
                 return ($num1 + $num2) * $num1;
               }
 
-              echo "<br><br><br>Resultado:".calculo($num1, $num2);
+              echo "<br>Resultado=<hr>".calculo($num1, $num2);
 ?>
 
           </div><!-- /.container-fluid -->

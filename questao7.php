@@ -62,7 +62,6 @@
         <div class="container-fluid">
         <h1 class="h3 mb-0 text-gray-800">7. Questão - selecione dois números para sortear outros aleatórios entre esses e ter a soma dos dez primeiros números positivos</h1>
           <!-- Small boxes (Stat box) -->
-          <div class="row">
             <div class="d-sm-flex align-items-center justify-content-between mb-4">
                 </div>
                 <form name="calculo" method="POST" action="" >

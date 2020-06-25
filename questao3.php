@@ -65,10 +65,34 @@
             <h1>3. Escreva um algoritmo que leia dois números, calcule o quadrado de cada um, some os quadrados
 e mostre o resultado.</h1>
           <!-- Small boxes (Stat box) -->
-          <div class="row">
+          <form name="calcular" method="POST" action="" >
+            <div class="row">
+              <div class="col-3">
+                <input type="number" value="1" id="num1" name="numero1" class="form-control" placeholder="Primeiro número">
+              </div>
+              <div class="col-3">
+                <input type="number" value="1" id="num2" name="numero2" class="form-control" placeholder="Segundo número">
+              </div>
+            </div><br>
+            <div class="row">
+              <div class="col-3">
+                <button type="submit" class="btn btn-primary">Calculo</button>
+              </div>
+            </div>
+          </form>
 
+              
+            <?php
 
+            $num1 = $_POST['numero1'];
+            $num2 = $_POST['numero2'];
 
+            function calculo($num1=0, $num2=0){
+                return (($num1*$num1)+($num2*$num2));
+            }
+
+            echo "<br>Resultado=<hr>".calculo($num1, $num2);
+            ?>
 
           </div><!-- /.container-fluid -->
       </section>
