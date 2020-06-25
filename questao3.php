@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Questão 01</title>
+  <title>Questão 03</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -46,12 +46,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Questão 01</h1>
+            <h1 class="m-0 text-dark">Questão 03</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-              <li class="breadcrumb-item active">Questão 01</li>
+              <li class="breadcrumb-item active">Questão 03</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -62,36 +62,13 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-            <h1>1. Escreva um algoritmo para somar dois números e multiplicar o resultado pelo primeiro número.</h1>
+            <h1>3. Escreva um algoritmo que leia dois números, calcule o quadrado de cada um, some os quadrados
+e mostre o resultado.</h1>
           <!-- Small boxes (Stat box) -->
           <div class="row">
-          <form name="calcular" method="POST" action="" >
-            <div class="row">
-              <div class="col-3">
-                <input type="number" value="1" id="um" name="um" class="form-control" placeholder="1° Número">
-              </div>
-              <div class="col-3">
-                <input type="number" value="1" id="dois" name="dois" class="form-control" placeholder="2° Número">
-              </div>
-            </div><br>
-            <div class="row">
-              <div class="col-3">
-                <button type="submit" class="btn btn-primary">Calculo</button>
-              </div>
-            </div>
-          </form>
 
-          <?php
 
-            $num1 = $_POST['um'];
-            $num2 = $_POST['dois'];
 
-              function calculo($num1=0, $num2=0){
-                return ($num1 + $num2) * $num1;
-              }
-
-              echo "<br><br><br>Resultado:".calculo($num1, $num2);
-?>
 
           </div><!-- /.container-fluid -->
       </section>
@@ -141,16 +118,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
