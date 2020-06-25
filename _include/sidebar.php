@@ -44,61 +44,61 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index1.php" class="nav-link">
+                <a href="./questao1.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 01</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.php" class="nav-link">
+                <a href="./questao2.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 02</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.php" class="nav-link">
+                <a href="./questao3.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 03</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index4.php" class="nav-link">
+                <a href="./questao4.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 04</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index5.php" class="nav-link">
+                <a href="./questao5.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 05</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index6.php" class="nav-link">
+                <a href="./questao6.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 06</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index7.php" class="nav-link">
+                <a href="./questao7.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 07</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="./questao8.html" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 08</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="./questao9.html" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 09</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index10.php" class="nav-link">
+                <a href="./questao10.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 10</p>
                 </a>

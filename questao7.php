@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>PHP AdminLTE 3 | Dashboard</title>
+  <title>Questão 07</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -60,28 +60,46 @@
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
+        <h1 class="h3 mb-0 text-gray-800">7. Questão - selecione dois números para sortear outros aleatórios entre esses e ter a soma dos dez primeiros números positivos</h1>
           <!-- Small boxes (Stat box) -->
           <div class="row">
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                </div>
+                <form name="calculo" method="POST" action="" >
+                <div class="row">
+                    <div class="col-3">
+                    <input type="number" value="1" id="um" name="um" class="form-control" placeholder="Primeiro número">
+                    </div>
+                    <div class="col-3">
+                    <input type="number" value="1" id="dois" name="dois" class="form-control" placeholder="Segundo número">
+                    </div>
+                    </div><br>
+                    <div class="row">
+                    <div class="col-3">
+                    <button type="submit" class="btn btn-primary">Sortear</button>
+                    </div>
+                </div>
+                </form>
           <?php
-                //Número informados pelo usuário
-                $n1 = 6; //Valor do usuario
-                $n2 = 1000; //Valor do usuario
+                
+                $n1 = $_POST['um'];
+                $n2 = $_POST['dois'];
                 $j  = 0;
                 $soma = 0;
-                //Alimentar o vetor A com 100 posições
+                
                 for($i=1;$i<=100;$i++){
                     $a[$i-1] = rand($n1,$n2);
                 }
 
-                //Identificar os numeros pares e armazenar no vetor B com no maximo 10 posições
+                
                 for($i=1;$i<=100;$i++){
                     
-                    //Verificando se o numero é PAR
+                    
                     if(($a[$i-1]%2) == 0){
-                    //Controlando quantidade de 10 valores no vetor B
+                    
                     if($j <= 9){    
                         $b[$j] = $a[$i-1];
-                        //Soma dos numeros pares
+                        
                         $soma = $soma + $b[$j];
                     }
                         $j++;
@@ -108,6 +126,42 @@
   <?php
     include"_include/footer.php";
   ?>  
+
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
 
 </body>
 </html>
