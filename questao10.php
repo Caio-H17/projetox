@@ -73,7 +73,9 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-        <h2>10.	Escreva um algoritmo que receba de entrada a distância total (em km) percorrida por um automóvel e a quantidade de combustível (em litros) consumida para percorrê-la, calcule e imprima o consumo médio de combustível.  Fórmula: Consumo médio = Km / litros.</h2>
+        <h2>10. Escreva um algoritmo que receba de entrada a distância total (em km) percorrida por um
+automóvel e a quantidade de combustível (em litros) consumida para percorrê-la, calcule e
+imprima o consumo médio de combustível. Fórmula: Consumo médio = Km / litros.</h2>
                     <!-- Horizontal Form -->
             <div class="card card-info">
                 <div class="card-header">

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Caio Henrique - Lista PHP</title>
+  <title>Questão 01 - Caio Henrique</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -26,7 +26,9 @@
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  
 </head>
+
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
   
@@ -38,33 +40,73 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-      <!-- Content Header (Page header) -->
-      <?php
-      include "_include/header.php";
-      ?>
-      <!-- /.content-header -->
 
-      <!-- Main content -->
-      <section class="content">
+      <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Questão 01</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+              <li class="breadcrumb-item active">Questão 01</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
         <div class="container-fluid">
-          
-          
-          <!-- /.row (main row) -->
-        </div><!-- /.container-fluid -->
+            <h3>1. Escreva um algoritmo para somar dois números e multiplicar o resultado pelo primeiro número.</h3>
+            <hr>
+            <h3>2. Escreva um algoritmo que leia três números nas variáveis Val1, Val2 e Val3, calcule sua média na
+variável média e exiba para o usuário o resultado.</h3>
+            <hr>
+            <h3>3. Escreva um algoritmo que leia dois números, calcule o quadrado de cada um, some os quadrados
+e mostre o resultado.</h3>
+            <hr>
+            <h3>4. Escreva um algoritmo que leia a velocidade de um objeto em m/s (metros por segundo), calcule e
+exiba para o usuário a velocidade em km/h.</h3>
+            <hr>
+            <h3>5. Um funcionário recebe aumento salarial anualmente. Sabe-se que:</h3>
+            <h4>• Esse funcionário foi contratado em 2015, com salário inicial de R$1000,00;</h4>
+            <h4>• Em 2016 recebeu aumento de 1,5% sobre seu salário inicial;</h4>
+            <h4>• A partir de 2017 (inclusive), os aumentos salariais sempre corresponderam ao dobro do
+percentual do ano anterior. Exiba o salário atual desse funcionário.</h4></5.>
+            <hr>
+            <h3>6. Escreva um algoritmo que receba o valor de um produto e calcule um desconto de 7%, exibindo
+para o usuário o valor original, o valor do desconto e o valor com o desconto.</h3>
+            <hr>
+            <h3>7. Faça um algoritmo leia 100 números randômicos, calcule e mostre a soma dos 10 primeiros
+números pares. </h3>
+            <hr>
+            <h3>8. Crie um algoritmo em que o usuário escolha uma operação (soma, subtração, multiplicação ou
+divisão). Crie duas caixas de texto para receber 2 números. Realize a operação escolhida em
+cada um dos números.</h3>
+            <hr>
+            <h3>9. Escreva um algoritmo que receba o valor de um produto, acrescente 16% a esse valor, dívida em
+10 parcelas e mostre para o usuário o valor da parcela e o valor total da compra.</h3>
+            <hr>
+            <h3>10. Escreva um algoritmo que receba de entrada a distância total (em km) percorrida por um
+automóvel e a quantidade de combustível (em litros) consumida para percorrê-la, calcule e
+imprima o consumo médio de combustível. Fórmula: Consumo médio = Km / litros.</h3>
+            <hr>
+        </div>
+  <!-- /.container-fluid -->
       </section>
       <!-- /.content -->
   </div>
-  <!-- /.content-wrapper -->
+  <!-- /.content-wrapper -->      
 
+    <?php
+    include"_include/footer.php";
+  ?>  
 
-  <!-- FOOTER -->
-  <?php
-    include "_include/footer.php";
-  ?>
-<!-- /FOOTER -->
-
-</div>
-<!-- ./wrapper -->
 
 <!-- jQuery -->
 <script src="plugins/jquery/jquery.min.js"></script>
@@ -100,5 +142,6 @@
 <script src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/demo.js"></script>
+
 </body>
 </html>
