@@ -86,13 +86,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./questao8.html" class="nav-link">
+                <a href="./questao8.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 08</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./questao9.html" class="nav-link">
+                <a href="./questao9.php" class="nav-link">
                 <i class="fas fa-check"></i>
                   <p>Questão 09</p>
                 </a>
