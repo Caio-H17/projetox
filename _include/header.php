@@ -1,4 +1,8 @@
 <!-- Content Header (Page header) -->
+<link rel="icon"
+        type="image.png"
+        href="icon.png">
+        
 <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">

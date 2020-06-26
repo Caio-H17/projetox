@@ -47,9 +47,7 @@
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
-          
-          
-          <!-- /.row (main row) -->
+        <img src="dist/img/fundo.jpg">
         </div><!-- /.container-fluid -->
       </section>
       <!-- /.content -->

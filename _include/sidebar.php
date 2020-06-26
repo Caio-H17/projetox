@@ -30,7 +30,6 @@
                 <i class="fas fa-book"></i>
               <p>
                 Atividade PHP
-                <span class="right badge badge-danger">New</span>
               </p>
             </a>
           </li>
